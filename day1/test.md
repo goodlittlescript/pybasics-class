@@ -1,12 +1,12 @@
 # Test
 
-You can (and should) organize tests into multiple files so that related tests go together. This lets you run a bunch of files at once.
+You can (and should) organize tests into multiple files so that related tests go together. This lets you run a bunch of files at once. One trick... you need to make a `__init__.py` file in the folder to signal it's a module. Otherwise python will not "discover" your tests.
 
 ```shell
 python -m unittest
 # ...
 # ----------------------------------------------------------------------
-# Ran 12 tests in 0.000s
+# Ran 10 tests in 0.000s
 # 
 # OK
 ```
