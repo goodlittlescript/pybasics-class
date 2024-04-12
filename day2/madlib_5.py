@@ -23,3 +23,12 @@ I'm gonna {verb} 'til I can't no more
 # escapes come up in other places too...
 
 # print("I want to \"put quotes\" into my \"quoted string\" so everything \"just works\"")
+# print("I want to \n make\n a\n newline.")
+# print("I want to beep \a")
+
+# input("beep")
+# print("\a")
+# input("beep")
+# print("\a")
+# input("beep beep beep")
+# print("\a \a \a")
