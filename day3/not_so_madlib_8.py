@@ -1,4 +1,4 @@
-# Or to change the data
+# Or to change the code
 
 # data
 animals = {
