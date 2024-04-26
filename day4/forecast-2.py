@@ -1,4 +1,5 @@
 # Lists are "lists of values". They're a data structure like dictionaries.
+# https://docs.python.org/3/tutorial/datastructures.html
 
 #
 # A comma separates items.

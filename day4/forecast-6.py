@@ -1,3 +1,6 @@
+#
+# Using choice makes actual forecasts based on history.
+#
 import random
 
 # 1 out of 10 rain

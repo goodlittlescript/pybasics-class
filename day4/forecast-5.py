@@ -1,3 +1,6 @@
+#
+# Another option is to use `choice` on each iteration.
+#
 import random
 
 history = ["sun", "sun", "sun", "sun", "rain", "sun", "sun", "sun", "sun", "sun"]

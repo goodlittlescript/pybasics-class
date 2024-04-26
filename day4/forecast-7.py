@@ -1,3 +1,6 @@
+#
+# One choice can pick the probabilities for another.
+#
 import random
 
 # 1 out of 10 rain
