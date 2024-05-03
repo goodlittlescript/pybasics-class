@@ -17,8 +17,8 @@ What I want, yeah (what I want, what I want)
 import re
 
 pattern = """\
-I'm gonna take my (.*) to the old town (.*)
-I'm gonna (.*) 'til I can't no more
+I'm gonna take my (.+) to the old town (.+)
+I'm gonna (.+) 'til I can't no more
 """
 
 result = re.match(pattern, madlib_1)

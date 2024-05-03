@@ -22,8 +22,8 @@ I'm gonna ride 'til I can't no more
 import re
 
 pattern = """\
-I'm gonna take my (.*) to the old town (.*)
-I'm gonna (.*) 'til I can't no more
+I'm gonna take my (.+) to the old town (.+)
+I'm gonna (.+) 'til I can't no more
 """
 
 result = re.match(pattern, madlib)
@@ -39,14 +39,14 @@ print(answers)
 # Regex have MANY flags to allow you to get specific about
 # what you want to match
 #
-# Here the '?' means "shortest possible match". By default
-# it will be "longest possible match"
+# Here the '?' modifier means "shortest possible match". By
+# default it will be "longest possible match"
 #
 # https://docs.python.org/3/library/re.html#regular-expression-syntax
 
 altpattern = """\
-I'm gonna take my (.*?) to the old town (.*)
-I'm gonna (.*) 'til I can't no more
+I'm gonna take my (.+?) to the old town (.+)
+I'm gonna (.+) 'til I can't no more
 """
 
 result = re.match(altpattern, madlib)

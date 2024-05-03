@@ -6,12 +6,14 @@ I'm gonna ride 'til I can't no more
 # Regular expressions are another strategy
 # These allow you to write the reverse of interpolation.
 # Use () to define capture groups
+# '.' matches anything
+# '+' means "1 or more"
 
 import re
 
 pattern = """\
-I'm gonna take my (.*) to the old town (.*)
-I'm gonna (.*) 'til I can't no more
+I'm gonna take my (.+) to the old town (.+)
+I'm gonna (.+) 'til I can't no more
 """
 
 result = re.match(pattern, madlib)
