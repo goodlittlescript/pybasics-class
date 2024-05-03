@@ -3,11 +3,13 @@ I'm gonna take my hockey stick to the old town road
 I'm gonna ride 'til I can't no more
 """
 
-# Regular expressions are another strategy
+# Regular expressions (regex) are another strategy
 # These allow you to write the reverse of interpolation.
-# Use () to define capture groups
-# '.' matches anything
-# '+' means "1 or more"
+#
+# - '.' matches anything
+# - '+' means "1 or more"
+# - Use () to define capture groups
+#
 
 import re
 

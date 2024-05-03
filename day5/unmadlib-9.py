@@ -1,10 +1,11 @@
 # Problems like this come up all the time.
 #
 # - "Change the date format to YYYY-MM-DD (ex 05/02/24 => 2024-05-02)"
-# - "Print the close price for each day"
 #
 # You can pick your approach. Often it is a mix. I might
-# split this by lines and then use regex on each line.
+# do this 100% with slice-n-dice (split to lines, split
+# each line, split the date, then reconstruct), but I
+# might also use regex.
 #
 # https://www.wsj.com/market-data/quotes/index/SPX/historical-prices
 
@@ -32,3 +33,10 @@ data = """\
 04/05/24	5158.95	5222.18	5157.21	5204.34
 04/04/24	5244.05	5256.59	5146.06	5147.21
 """
+
+# Regex solution....
+#
+# import re
+# result = re.sub("(.+?)/(.+?)/24", "2024-\\1-\\2", data)
+# print(result)
+#
