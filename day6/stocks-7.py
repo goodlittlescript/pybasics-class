@@ -44,7 +44,7 @@ print(f"Max price change: {max(price_changes)}")
 print(f"Min price change: {min(price_changes)}")
 
 #
-# You can even filter with a following condition
+# You can even filter with a suffix condition
 #
 
 price_changes_in_may = [

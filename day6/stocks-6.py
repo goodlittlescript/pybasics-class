@@ -37,7 +37,7 @@ for line in data_str.split("\n"):
 
 #
 # Often it's easier to collect a list of complex objects
-# then use a list comprehension to make simpler lists.
+# then use a _list comprehension_ to make simpler lists.
 #
 
 close_prices = [m["close"] for m in measurements]
